@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+    <LinearLayout
+        android:id="@+id/user_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        >
+
+    <com.j2travel.assignment.view.CirleImageView
+        android:id="@+id/user_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_background"
+        app:civ_border_color="@android:color/white"
+        app:civ_border_width="1dp" />
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:gravity="center"
+         android:layout_marginLeft="10dp">
+      <TextView
+          android:id="@+id/user_name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="User Name"
+          android:textColor="@android:color/black"
+          android:textSize="15dp"
+          android:textStyle="bold"/>
+
+         <TextView
+             android:id="@+id/user_designation"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="User Designation"
+             android:textColor="@android:color/black"
+             android:textSize="15dp"/>
+     </LinearLayout>
+     <TextView
+         android:id="@+id/createdAt"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="1 min"
+         android:gravity="end"
+         android:textSize="15dp"
+         android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/article_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/article_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100 Likes"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:id="@+id/comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="500 Comments"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity="end"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+</LinearLayout>
+</LinearLayout>
