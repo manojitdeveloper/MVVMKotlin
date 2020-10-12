@@ -2,8 +2,9 @@
 <resources>
     <dimen name="text_margin">16dp</dimen>
     <dimen name="progress_bar_dimens">32dp</dimen>
-    <dimen name="dimen16">16dp</dimen>
-    <dimen name="dimen8">8dp</dimen>
-    <dimen name="card_margin">8dp</dimen>
+    <dimen name="dimen50">50dp</dimen>
+    <dimen name="dimen10">10dp</dimen>
+    <dimen name="dimen15">15dp</dimen>
+    <dimen name="dimen150">150dp</dimen>
     <dimen name="imageview_height">200dp</dimen>
 </resources>
